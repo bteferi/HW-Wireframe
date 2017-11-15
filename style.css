@@ -1,0 +1,82 @@
+body{
+  background-color:gray;
+  text-align: center;
+  color:black;
+  width:960px;
+  margin:2% 1% 10% 2%;
+ padding:0;
+
+}
+
+.sectionHeader{
+  background-color: white;
+  padding:20px 30px 20px 30px;
+  margin-top:10px;
+  margin-bottom:15px;
+
+}
+
+.nav {
+  background-color: white;
+  padding:20px 30px 20px 30px;
+  margin-top:10px;
+  margin-bottom:15px;
+}
+
+.parent-box{
+  float:left;
+  background-color:lightgreen;
+  width:350px;
+  color:gray;
+  padding:50px;
+}
+
+.child-box {
+  background-color:red;
+  color:black;
+  padding:50px;
+}
+
+
+.grand-child-box{
+  background-color:white;
+  padding:30px;
+}
+
+.myarticleheaders
+{
+  padding:10px;
+  margin:3px;
+  background-color:pink;
+}
+
+
+.mypinarticle
+{
+  padding:10px;
+  margin:3px;
+  background-color:pink;
+}
+.clear::after{
+  content:"";
+  display: block;
+  clear: both;
+}
+
+.moveright{
+  background-color:yellow;
+  width:480px;
+  height:365px;
+  color:gray;
+  margin:0px 0px 5px 5px;
+  float: right;
+}
+
+.footer{
+  background-color: pink;
+  padding:20px 30px 20px 30px;
+  width:920px;
+  margin-bottom:15px;
+  height:10px;
+
+}
