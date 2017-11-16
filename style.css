@@ -1,23 +1,25 @@
 body{
-  background-color:gray;
+  background-color:#777;
   text-align: center;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color:black;
   width:960px;
-  margin:2% 1% 10% 2%;
+  margin:auto;
  padding:0;
 
 }
 
 .sectionHeader{
-  background-color: white;
+  background-color:#ebebeb;
   padding:20px 30px 20px 30px;
   margin-top:10px;
   margin-bottom:15px;
 
+
 }
 
 .nav {
-  background-color: white;
+  background-color:#ebebeb;
   padding:20px 30px 20px 30px;
   margin-top:10px;
   margin-bottom:15px;
@@ -25,29 +27,27 @@ body{
 
 .parent-box{
   float:left;
-  background-color:lightgreen;
+  background-color:#ebebeb;
   width:350px;
-  color:gray;
-  padding:50px;
+  padding:59px;
 }
 
 .child-box {
-  background-color:red;
+  background-color:#777;
   color:black;
-  padding:50px;
+  padding:45px;
 }
-
 
 .grand-child-box{
   background-color:white;
-  padding:30px;
+
 }
 
 .myarticleheaders
 {
   padding:10px;
   margin:3px;
-  background-color:pink;
+  background-color:#ebebeb;
 }
 
 
@@ -55,7 +55,7 @@ body{
 {
   padding:10px;
   margin:3px;
-  background-color:pink;
+  background-color:#ebebeb;
 }
 .clear::after{
   content:"";
@@ -64,19 +64,16 @@ body{
 }
 
 .moveright{
-  background-color:yellow;
+  background-color:#ebebeb;
   width:480px;
-  height:365px;
+  height:335px;
   color:gray;
   margin:0px 0px 5px 5px;
   float: right;
 }
 
 .footer{
-  background-color: pink;
+  background-color:#ebebeb;
   padding:20px 30px 20px 30px;
-  width:920px;
-  margin-bottom:15px;
   height:10px;
-
 }
